@@ -1,0 +1,3 @@
+[submodule "python_smartmetertx"]
+	path = python_smartmetertx
+	url = git@github.com:cmulk/python_smartmetertx.git
