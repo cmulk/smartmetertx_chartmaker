@@ -30,8 +30,9 @@ labels = {
     "energyDataKwh": "KwH"
 }
 
-fig = px.bar(data_frame=rd, x="readDate", y ="energyDataKwh", labels=labels)
+fig = px.bar(data_frame=rd, x="readDate", y ="energyDataKwh", text='energyDataKwh', labels=labels)
+fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
 
-fig.write_html(OUTFILE)
+fig.write_html(OUTFILE, full_html=False)
 
 print("Done.")
