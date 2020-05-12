@@ -15,6 +15,10 @@ Optional:
 ```
 docker build -t smartmetertx_chartmaker:local .
 ```
+or
+```
+docker build -t smartmetertx_chartmaker:local https://github.com/cmulk/smartmetertx_chartmaker.git
+```
 
 ## Example run
 ```
