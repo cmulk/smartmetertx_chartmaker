@@ -36,6 +36,6 @@ read_dates_short = [data['readDate'][:-5] for data in rd]
 fig = px.bar(data_frame=rd, x=read_dates_short, y ="energyDataKwh", text='energyDataKwh', labels=labels)
 fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
 
-fig.write_html(OUTFILE, full_html=False)
+fig.write_html(OUTFILE)
 
 print("Done.")
