@@ -26,7 +26,7 @@ rd = j['data']['registeredReads']
 
 
 labels = {
-    "readDate" : "Date",
+    "x" : "Date",
     "energyDataKwh": "KwH"
 }
 
