@@ -28,7 +28,7 @@ rd = j['dailyData']
 
 labels = {
     "x" : "Date",
-    "date": "KwH"
+    "reading": "KwH"
 }
 
 # strip year from readDates
